@@ -1,0 +1,71 @@
+.primary {
+  width: 268px;
+  height: 44px;
+  background-color: var(--BlueColor);
+  color: var(--WhiteColor);
+  border-radius: 10px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.primary:hover {
+  background-color: var(--WhiteColor);
+  color: var(--BlueColor);
+  border: 1px solid var(--BlueColor);
+}
+.secondary {
+  width: 100px;
+  height: 30px;
+  background-color: var(--BlueColor);
+  color: var(--WhiteColor);
+  border-radius: 5px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.secondary:hover {
+  background-color: var(--WhiteColor);
+  color: var(--BlueColor);
+  border: 1px solid var(--BlueColor);
+}
+.tertiary {
+  width: 100px;
+  height: 30px;
+  background-color: var(--GreenColor);
+  color: var(--WhiteColor);
+  border-radius: 5px;
+  border: none;
+  font-family: 'Manrope', sans-serif;
+  transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+.tertiary:hover {
+  background-color: var(--WhiteColor);
+  color: var(--BlueColor);
+  border: 1px solid var(--GreenColor);
+}
+.four {
+  width: 100px;
+  height: 30px;
+  background-color: var(--GreenColor);
+  color: var(--WhiteColor);
+  border-radius: 5px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+  transition: background-color 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-size: contain;
+  cursor: pointer;
+}
+.four:hover {
+  background-color: var(--WhiteColor);
+  color: var(--BlueColor);
+  border: 1px solid var(--GreenColor);
+}

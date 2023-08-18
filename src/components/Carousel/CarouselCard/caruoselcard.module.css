@@ -1,0 +1,69 @@
+.items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+}
+.item {
+  height: 220px;
+  position: relative;
+  width: auto;
+  margin: 0 8px;
+  border-radius: 2px;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  overflow: hidden;
+  border-radius: 2px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 2s ease;
+  z-index: 50;
+}
+.image:hover img {
+  transform: scale(1.1);
+}
+.icon {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-size: 18px;
+  margin: 0 5px;
+  color: var(--WhiteColor);
+  font-weight: 600;
+}
+.icon:hover {
+  color: var(--BlueColor);
+}
+
+.card {
+  padding: 14px 10px;
+}
+.cardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carName {
+  display: flex;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: var(--BlackColor);
+}
+.mark {
+  color: var(--BlueColor);
+}
+.slBtn {
+  display: flex;
+  margin: 0 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+}

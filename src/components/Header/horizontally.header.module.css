@@ -1,0 +1,50 @@
+.navBar {
+  background: transparent !important;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  padding: 0 40px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.collapse {
+  display: flex !important;
+
+  flex-basis: auto;
+  flex-grow: 1;
+
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: #999999;
+}
+.navbarBrand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 5px 3px 9px rgba(0, 0, 0, 0.75);
+}
+.navbarBrand span {
+  color: #01d28e;
+  text-shadow: 5px 3px 9px rgba(0, 0, 0, 0.75);
+  font-size: 30px;
+}

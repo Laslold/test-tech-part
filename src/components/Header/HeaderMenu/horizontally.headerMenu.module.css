@@ -1,0 +1,30 @@
+.navItem {
+  box-sizing: border-box;
+  list-style: none;
+  text-align: left;
+}
+.link {
+  font-size: 18px;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  font-weight: 400;
+  opacity: 1 !important;
+}
+.linkActive {
+  composes: link;
+  color: var(--GreenColor);
+  text-shadow: 5px 3px 9px rgba(0, 0, 0, 0.75);
+  font-weight: 700;
+}
+.navbarNav {
+  flex-direction: row;
+  margin-left: auto !important;
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin-top: 0;
+}

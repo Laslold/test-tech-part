@@ -1,0 +1,106 @@
+.items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+}
+.item {
+  height: 426px;
+  position: relative;
+  width: 268px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(140, 140, 141, 0.549);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--WhiteColor);
+}
+.image {
+  height: 274px;
+  width: 268px;
+
+  overflow: hidden;
+  border-radius: 10px;
+}
+.image img {
+  height: 100%;
+  width: 100%;
+
+  object-fit: cover;
+  transition: 2s ease;
+  z-index: 50;
+}
+.image:hover img {
+  transform: scale(1.1);
+}
+.wrapp {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 999;
+}
+.icon {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-size: 24px;
+  padding: 7px;
+  color: var(--WhiteColor);
+  font-weight: 600;
+  cursor: pointer;
+}
+.icon:hover {
+  color: var(--BlueColor);
+}
+.isActiveIcon {
+  composes: icon;
+  color: var(--BlueColor);
+}
+.isActiveIcon:hover {
+  color: var(--WhiteColor);
+}
+.card {
+  padding: 14px 10px;
+}
+.cardInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carName {
+  display: flex;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: var(--BlackColor);
+}
+.mark {
+  color: var(--BlueColor);
+}
+.descript {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--GreyColor);
+  padding: 10px 0;
+}
+.company {
+  display: flex;
+  gap: 10px;
+}
+.company div {
+  margin-right: 5px;
+}
+.tech {
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.tech div {
+  white-space: nowrap;
+  text-overflow: clip;
+  margin-right: 5px;
+}
+.model {
+  padding: 0 10px;
+}
