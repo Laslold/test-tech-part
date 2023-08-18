@@ -1,28 +1,3 @@
-.heroWrap {
-  background-image: url('../../images/bg_11.jpg');
-  background-position: 50% 229.5px;
-
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 450px;
-  position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  opacity: 0.3;
-  background: var(--BlackColor);
-  height: 451px;
-}
 .ftcoBg {
   position: relative;
 }
@@ -58,9 +33,8 @@
 .sectionHr {
   top: 100px;
   position: absolute;
-  /* outline: 2px solid red; */
+
   z-index: 40;
-  /* width: 60%; */
 }
 .colHr {
   padding-right: 0;
@@ -69,21 +43,7 @@
 
   flex: 0 0 66.66667%;
 }
-/* .col {
-  padding-right: 0;
-  padding-left: 0;
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  flex: 0 0 66.66667%;
-  max-width: 66.66667%;
-  position: relative;
-  width: 100%;
 
-  animation-duration: 0.5s;
-
-  animation-fill-mode: both;
-} */
 .textBox {
   top: 40px;
   left: 60px;
@@ -127,7 +87,7 @@
   justify-content: center;
   color: var(--WhiteColor);
   margin: 0 20px;
-  /* transform: rotate(-15deg); */
+
   transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
@@ -218,7 +178,7 @@
   z-index: 0;
   width: 100%;
   top: 300px;
-  height: 400px;
+  height: 500px;
 }
 .sectGreen {
   width: 60%;
@@ -230,11 +190,11 @@
   z-index: 2;
 }
 .sectPiText {
-  height: 250px;
+  /* height: 250px; */
   display: flex;
   align-items: center;
   position: absolute;
-  top: 270px;
+  top: 300px;
   left: 130px;
   z-index: 50;
   transform: translate(-50%, -50%);
@@ -245,6 +205,10 @@
   align-items: center;
   padding: 0 40px;
   width: 500px;
+  text-align: justify;
+}
+.sectH2 span {
+  font-weight: bold;
 }
 .sectionSr {
   position: relative;

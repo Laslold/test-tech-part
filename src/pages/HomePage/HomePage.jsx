@@ -81,7 +81,7 @@ const HomePage = () => {
               Fast & Easy Way To Rent A Car
             </h1>
             <p data-aos="fade-left" className={s.textP}>
-              With CARbook your driving adventures start here. No matter where
+              With CarBook your driving adventures start here. No matter where
               you are going, we guarantee comfort, reliability and enjoyment of
               the trip!
             </p>
@@ -159,35 +159,33 @@ const HomePage = () => {
             <img src={aboutImg} alt="about" width="450px" />
             <div className={s.about}>
               <span className={s.subheading}>About us</span>
-              <h2 data-aos="fade-down" className={s.sectH2}>
-                Welcome to CarBook
-              </h2>
+              <h2 data-aos="fade-down">Welcome to CarBook</h2>
 
-              <p>
-                Car rental company 'CarBook' is your reliable partner
-                in the world of car adventures and freedom of movement. We
-                provide a wide range of rental cars to suit every need and
-                preference.
+              <p className={s.sectH2}>
+                Car rental company 'CarBook' is your reliable partner in the
+                world of car adventures and freedom of movement. We provide a
+                wide range of rental cars to suit every need and preference.
                 <br />
-                Variety of Choices: Whether you need an economy car for city
-                commuting, a spacious SUV for family trips, or a luxury sedan
-                for a special occasion, we have the car for you.
+                <span>Variety of Choices:</span> Whether you need an economy car
+                for city commuting, a spacious SUV for family trips, or a luxury
+                sedan for a special occasion, we have the car for you.
                 <br />
-                Easy Booking Process: Our user-friendly online interface makes
-                it easy for you to select a vehicle, enter rental and pickup
-                dates, and additional services you may wish for.
+                <span>Easy Booking Process:</span> Our user-friendly online
+                interface makes it easy for you to select a vehicle, enter
+                rental and pickup dates, and additional services you may wish
+                for.
                 <br />
-                Reliability and safety: All our cars are regularly maintained
-                and checked before each rental, so that you can feel confident
-                on the road.
+                <span> Reliability and safety:</span> All our cars are regularly
+                maintained and checked before each rental, so that you can feel
+                confident on the road.
                 <br />
-                Professional Service: Our friendly team is always available to
-                assist you with your car selection, provide information on local
-                attractions and suggest the best routes.
+                <span> Professional Service:</span> Our friendly team is always
+                available to assist you with your car selection, provide
+                information on local attractions and suggest the best routes.
                 <br />
-                Flexible rental terms: We understand that your plans may change,
-                so we have flexible terms for cancellations and changes to your
-                booking.
+                <span> Flexible rental terms:</span> We understand that your
+                plans may change, so we have flexible terms for cancellations
+                and changes to your booking.
               </p>
               <p>
                 <Link to="/catalog">
