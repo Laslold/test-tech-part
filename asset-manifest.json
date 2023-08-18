@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/test-tech-part/static/css/main.a9a3184b.css",
-    "main.js": "/test-tech-part/static/js/main.d931262f.js",
+    "main.js": "/test-tech-part/static/js/main.3c0a3369.js",
     "static/js/829.69dbd7c5.chunk.js": "/test-tech-part/static/js/829.69dbd7c5.chunk.js",
     "static/css/644.90194621.chunk.css": "/test-tech-part/static/css/644.90194621.chunk.css",
     "static/js/644.e5f386d5.chunk.js": "/test-tech-part/static/js/644.e5f386d5.chunk.js",
-    "static/css/428.9735166f.chunk.css": "/test-tech-part/static/css/428.9735166f.chunk.css",
-    "static/js/428.8546a4e1.chunk.js": "/test-tech-part/static/js/428.8546a4e1.chunk.js",
+    "static/css/428.140049c1.chunk.css": "/test-tech-part/static/css/428.140049c1.chunk.css",
+    "static/js/428.6edcc254.chunk.js": "/test-tech-part/static/js/428.6edcc254.chunk.js",
     "static/css/304.1e415068.chunk.css": "/test-tech-part/static/css/304.1e415068.chunk.css",
     "static/js/304.eb1c4364.chunk.js": "/test-tech-part/static/js/304.eb1c4364.chunk.js",
     "static/css/704.5919f110.chunk.css": "/test-tech-part/static/css/704.5919f110.chunk.css",
@@ -28,12 +28,12 @@
     "static/media/slick.woff": "/test-tech-part/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/test-tech-part/index.html",
     "main.a9a3184b.css.map": "/test-tech-part/static/css/main.a9a3184b.css.map",
-    "main.d931262f.js.map": "/test-tech-part/static/js/main.d931262f.js.map",
+    "main.3c0a3369.js.map": "/test-tech-part/static/js/main.3c0a3369.js.map",
     "829.69dbd7c5.chunk.js.map": "/test-tech-part/static/js/829.69dbd7c5.chunk.js.map",
     "644.90194621.chunk.css.map": "/test-tech-part/static/css/644.90194621.chunk.css.map",
     "644.e5f386d5.chunk.js.map": "/test-tech-part/static/js/644.e5f386d5.chunk.js.map",
-    "428.9735166f.chunk.css.map": "/test-tech-part/static/css/428.9735166f.chunk.css.map",
-    "428.8546a4e1.chunk.js.map": "/test-tech-part/static/js/428.8546a4e1.chunk.js.map",
+    "428.140049c1.chunk.css.map": "/test-tech-part/static/css/428.140049c1.chunk.css.map",
+    "428.6edcc254.chunk.js.map": "/test-tech-part/static/js/428.6edcc254.chunk.js.map",
     "304.1e415068.chunk.css.map": "/test-tech-part/static/css/304.1e415068.chunk.css.map",
     "304.eb1c4364.chunk.js.map": "/test-tech-part/static/js/304.eb1c4364.chunk.js.map",
     "704.5919f110.chunk.css.map": "/test-tech-part/static/css/704.5919f110.chunk.css.map",
@@ -49,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.a9a3184b.css",
-    "static/js/main.d931262f.js"
+    "static/js/main.3c0a3369.js"
   ]
 }
