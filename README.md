@@ -1,5 +1,5 @@
 <h2>Test site for a car rental company</h2>
-<p style={{color:#ff0000}}>Attention the site does not have an adaptive layout!</p>
+<p style="color:#ff0000">Attention the site does not have an adaptive layout!</p>
 
 Sure, here's the step-by-step guide on how to run a React script from a GitHub
 repository:
@@ -44,8 +44,4 @@ repository:
      application.
    - The application will be accessible at `http://localhost:3000`.
 
-This is a basic guide to run a React application from a GitHub repository.
-Please note that additional configurations or commands might be required to run
-the application, especially if the project uses specific libraries or
-configurations. Also, make sure to refer to any documentation or instructions
-provided in the repository to ensure you're following the correct steps.
+
