@@ -1,3 +1,6 @@
+<h2>Test site for a car rental company</h2>
+<p style={{color:#ff0000}}>Attention the site does not have an adaptive layout!</p>
+
 Sure, here's the step-by-step guide on how to run a React script from a GitHub
 repository:
 
