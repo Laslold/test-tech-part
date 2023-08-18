@@ -160,11 +160,11 @@ const HomePage = () => {
             <div className={s.about}>
               <span className={s.subheading}>About us</span>
               <h2 data-aos="fade-down" className={s.sectH2}>
-                Welcome to Carbook
+                Welcome to CarBook
               </h2>
 
               <p>
-                Car rental company 'CarBook' 'CarBook' is your reliable partner
+                Car rental company 'CarBook' is your reliable partner
                 in the world of car adventures and freedom of movement. We
                 provide a wide range of rental cars to suit every need and
                 preference.

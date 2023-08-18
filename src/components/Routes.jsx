@@ -1,8 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
 import { Suspense, lazy } from 'react';
-
-// import { RedirectTo } from './RedirectTo/RedirectTo';
+import Loader from './Loader/Loader';
 
 const NotPage = lazy(() => import('../pages/NotPage'));
 const DashboardPage = lazy(() => import('../pages/DashboardWrap'));
@@ -12,7 +11,7 @@ const FavoritePage = lazy(() => import('../pages/Favorite'));
 
 const UserRoutes = () => {
   return (
-    <Suspense fallback="...Loading">
+    <Suspense fallback={<Loader />}>
       <Routes>
         <Route path="/" element={<DashboardPage />}>
           <Route index element={<HomePage />} />

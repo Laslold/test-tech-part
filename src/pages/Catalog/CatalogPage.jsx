@@ -141,8 +141,9 @@ const CatalogPage = () => {
         <Select
           value={filterBrand}
           onChange={setFilterBrand}
-          placeholder="Input mark"
+          placeholder="Select mark"
           options={[
+            { value: '', label: 'SHOW ALL' },
             { value: 'buick', label: 'Buick' },
             { value: 'volvo', label: 'Volvo' },
             { value: 'hummer', label: 'Hummer' },
@@ -160,7 +161,6 @@ const CatalogPage = () => {
             { value: 'mercedes-benz', label: 'Mercedes-Benz' },
             { value: 'audi', label: 'Audi' },
             { value: 'tesla', label: 'Tesla' },
-
             { value: 'mazda', label: 'Mazda' },
             { value: 'lexus', label: 'Lexus' },
             { value: 'volkswagen', label: 'Volkswagen' },
