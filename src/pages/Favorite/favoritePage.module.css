@@ -63,7 +63,6 @@
   max-width: 66.66667%;
 
   width: 100%;
-
 }
 .textBox {
   top: 40px;
@@ -108,7 +107,6 @@
   position: absolute;
   right: 200px;
   z-index: 40;
-
 }
 .colHr {
   padding-right: 0;
@@ -116,4 +114,31 @@
   position: relative;
 
   flex: 0 0 66.66667%;
+}
+.noFavor {
+  display: flex;
+  flex-direction: column;
+}
+.noFavorH2 {
+  font-size: 34px;
+  color: var(--BlueColor);
+  line-height: 1.1;
+  font-weight: 500;
+  text-shadow: 5px 3px 9px rgba(0, 0, 0, 0.75);
+  margin-bottom: 32px;
+}
+.noFavorSl {
+  position: relative;
+}
+
+.noFavorH2img {
+  position: absolute;
+  right: 200px;
+  bottom: 370px;
+  font-size: 40px;
+  color: var(--GreenColor);
+  line-height: 1.1;
+  font-weight: 500;
+  text-shadow: 5px 3px 9px rgba(0, 0, 0, 0.75);
+  transform: rotate(-5deg);
 }

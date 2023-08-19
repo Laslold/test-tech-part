@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
+import img from '../../images/3cars.png';
 import s from './favoritePage.module.css';
 import GalleryCard from 'components/Card/GaleryCard';
 import { useDispatch, useSelector } from 'react-redux';
@@ -42,6 +43,7 @@ const FavoritePage = () => {
     });
   }, [setModal]);
   const { isOpen, content } = modal;
+
   return (
     <>
       <div className={s.sectionHr}>
@@ -57,11 +59,24 @@ const FavoritePage = () => {
       <div data-aos="fade-up" className={s.sectionSl}>
         <div className={s.servicesWrapSl}>
           <div>
-            <GalleryCard
-              onFavorClick={onFavorClick}
-              handleClick={onCardClick}
-              items={favorCars}
-            />
+            {favorCars.length > 0 ? (
+              <GalleryCard
+                onFavorClick={onFavorClick}
+                handleClick={onCardClick}
+                items={favorCars}
+              />
+            ) : (
+              <div className={s.noFavor}>
+                <h2 className={s.noFavorH2}>Favorites list is empty</h2>
+
+                <div>
+                  <img src={img} alt="3 cars" className={s.noFavorSl} />
+                  <h2 className={s.noFavorH2img}>
+                    With CarBook your driving <br /> adventures start here!
+                  </h2>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </div>
