@@ -8,7 +8,7 @@ import Button from 'shared/Button/Button';
 import Select from 'react-select';
 import { ImDownload } from 'react-icons/im';
 import { getAdverts, searchAdverts } from 'shared/api';
-
+import { fields } from './fields';
 import { add, remove } from '../../redux/favoriteCars/favoriteCars-slice';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -142,30 +142,7 @@ const CatalogPage = () => {
           value={filterBrand}
           onChange={setFilterBrand}
           placeholder="Select mark"
-          options={[
-            { value: '', label: 'SHOW ALL' },
-            { value: 'buick', label: 'Buick' },
-            { value: 'volvo', label: 'Volvo' },
-            { value: 'hummer', label: 'Hummer' },
-            { value: 'subaru', label: 'Subaru' },
-            { value: 'mitsubishi', label: 'Mitsubishi' },
-            { value: 'nissan', label: 'Nissan' },
-            { value: 'gmc', label: 'GMC' },
-            { value: 'hyundai', label: 'Hyundai' },
-            { value: 'lincoln', label: 'Lincoln' },
-            { value: 'bentley', label: 'Bentley' },
-            { value: 'honda', label: 'Honda' },
-            { value: 'ford', label: 'Ford' },
-            { value: 'chevrolet', label: 'Chevrolet' },
-            { value: 'bmw', label: 'BMW' },
-            { value: 'mercedes-benz', label: 'Mercedes-Benz' },
-            { value: 'audi', label: 'Audi' },
-            { value: 'tesla', label: 'Tesla' },
-            { value: 'mazda', label: 'Mazda' },
-            { value: 'lexus', label: 'Lexus' },
-            { value: 'volkswagen', label: 'Volkswagen' },
-            { value: 'porsche', label: 'Porsche' },
-          ]}
+          options={fields}
         />
 
         <div className={s.colHr}>
