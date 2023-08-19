@@ -1,28 +1,4 @@
-.heroWrap {
-  background-image: url('../../images/bg_3.jpg');
-  background-position: 50% 229.5px;
 
-  position: relative;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 450px;
-  position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  content: '';
-  opacity: 0.3;
-  background: var(--BlackColor);
-  height: 451px;
-}
 .ftcoBg {
   position: relative;
 }
